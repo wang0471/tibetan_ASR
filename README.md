@@ -24,7 +24,7 @@ librosa                 0.11.0
 ## 模型下载
 模型已上传至huggingface
 
-[模型地址]()
+[模型地址](https://huggingface.co/unwang/tibetan_ASR_small/tree/main)
 
 ## mel图谱
 ![实例1](L_F_0_13_002_mel.png)
