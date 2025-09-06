@@ -20,6 +20,9 @@ transformers            4.31.0
 
 librosa                 0.11.0
 
+## 效果
+![推理效果](cer.png)
+
 
 ## 模型下载
 模型已上传至huggingface
@@ -35,4 +38,4 @@ librosa                 0.11.0
 
 模型训练有n多个版本,base\small\mudium各个大小
 
-![]()
+目前仍然在训练更新中
