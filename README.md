@@ -34,10 +34,10 @@ pip install torch==2.7.0 torchvision==0.18.0 torchaudio==2.7.0 --index-url https
 
 ## 文件说明
 
-small_test.py 是模型推理代码
-utils 文件夹要一并下载，与模型文件、small_test.py放到同一目录下
-此处要改为你自己的藏语音频
-![](audio_file.png)
+small_test.py 是模型推理代码  
+utils 文件夹要一并下载，与模型文件、small_test.py放到同一目录下  
+此处要改为你自己的藏语音频  
+![](audio_file.png)  
 最后运行small_test.py即可进行语音识别，如果使用的是CPU进行推理可能需要一点时间
 
 ## 效果
