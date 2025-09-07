@@ -12,13 +12,26 @@
 
 ## 运行环境
 
-python                  3.9.0
+python                  3.9.0  
+pytorch                 2.7.0  
+transformers            4.31.0  
+librosa                 0.11.0  
 
-pytorch                 2.7.0
+你可以使用以下命令
+···
+pip install librosa==0.11.0
+···
 
-transformers            4.31.0
+CPU版本
+···
+pip install torch==2.7.0 torchvision==0.18.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cpu
+···
 
-librosa                 0.11.0
+GPU版本
+···
+pip install torch==2.7.0 torchvision==0.18.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu118
+···
+
 
 ## 效果
 ![推理效果](cer.png)
