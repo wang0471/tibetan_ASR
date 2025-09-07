@@ -18,19 +18,19 @@ transformers            4.31.0
 librosa                 0.11.0  
 
 你可以使用以下命令
-···
+```
 pip install librosa==0.11.0
-···
+```
 
 CPU版本
-···
+```
 pip install torch==2.7.0 torchvision==0.18.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cpu
-···
+```
 
 GPU版本
-···
+```
 pip install torch==2.7.0 torchvision==0.18.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu118
-···
+```
 
 
 ## 效果
